@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\user\\commonds\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:user\\commonds\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\user\\queries\\getuserbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:user\\queries\\getuserbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\user\\queries\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:user\\queries\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetUserByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\User\\Queries\\GetUserByIdQuery.cs",
+              "RelativeDocumentMoniker": "User\\Queries\\GetUserByIdQuery.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\User\\Queries\\GetUserByIdQuery.cs",
+              "RelativeToolTip": "User\\Queries\\GetUserByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T10:24:23.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetUserByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\User\\Queries\\GetUserByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "User\\Queries\\GetUserByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\User\\Queries\\GetUserByIdQueryHandler.cs",
+              "RelativeToolTip": "User\\Queries\\GetUserByIdQueryHandler.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T10:27:02.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\User\\Commonds\\CreateUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "User\\Commonds\\CreateUserCommandHandler.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\User\\Commonds\\CreateUserCommandHandler.cs",
+              "RelativeToolTip": "User\\Commonds\\CreateUserCommandHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T09:50:53.382Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

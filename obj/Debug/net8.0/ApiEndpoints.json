@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "Expense_Tracker.Controllers.UserController",
+    "Method": "Register",
+    "RelativePath": "api/User/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commond",
+        "Type": "Expense_Tracker.User.Commonds.CreateUserCommond",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
