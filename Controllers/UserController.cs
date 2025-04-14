@@ -1,8 +1,10 @@
 ﻿using Expense_Tracker.CQRS.Expenses.Commonds;
 using Expense_Tracker.CQRS.Expenses.Query;
+using Expense_Tracker.CQRS.Login.Commonds;
 using Expense_Tracker.CQRS.User.Commonds;
 using Expense_Tracker.Expenses.Query;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -25,8 +27,17 @@ namespace Expense_Tracker.Controllers
                  return Ok(new { UserId = userId, Message = "User registered successfully." });
         }
 
+        [HttpPost("Login")]
+        public async Task<IActionResult> Login(CreateUserLogin login)
+        { 
+    
+        var token = await _mediator.Send(login);
+            return Ok(token);
+        }
+
 
         [HttpGet("{UserId}")]
+        [Authorize]
         public async Task<IActionResult>GetExpen(Guid UserId)
         {
             var result= await _mediator.Send(new GetExpensesId(UserId));

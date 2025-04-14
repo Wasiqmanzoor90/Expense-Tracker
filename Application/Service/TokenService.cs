@@ -9,7 +9,8 @@ namespace Expense_Tracker.Application.Service
 {
     public class TokenService : IJToken
     {
-private readonly IConfiguration _config;
+        private readonly IConfiguration _config;
+
         public TokenService(IConfiguration config)
         {
             _config = config;
@@ -19,20 +20,25 @@ private readonly IConfiguration _config;
         {
             var claims = new[]
             {
-                  new Claim(JwtRegisteredClaimNames.Sub, user.Email), // Sub claim is typically the email or username
-        new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()), // Convert Guid to string
-        new Claim(ClaimTypes.Email, user.Email) // Assuming user.Email is already a string
+                new Claim(JwtRegisteredClaimNames.Sub, user.Email),
+                new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
+                new Claim(ClaimTypes.Email, user.Email)
             };
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+            var secretKey = _config["JWT:SecretKey"];
+            if (string.IsNullOrWhiteSpace(secretKey))
+                throw new Exception("JWT SecretKey is missing from configuration.");
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var token = new JwtSecurityToken(
-                issuer: _config["Jwt:Issuer"],
-                audience: _config["Jwt:Audience"],
+                issuer: "ExpenseTracker", // Optional: hardcoded or add to config if needed
+                audience: "ExpenseTrackerUser",
                 claims: claims,
                 expires: DateTime.UtcNow.AddHours(2),
-                signingCredentials: creds);
+                signingCredentials: creds
+            );
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }

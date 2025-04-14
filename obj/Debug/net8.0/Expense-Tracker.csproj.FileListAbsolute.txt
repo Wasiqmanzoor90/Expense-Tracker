@@ -177,3 +177,4 @@ C:\Users\admin\source\repos\Expense-Tracker\obj\Debug\net8.0\ref\Expense-Tracker
 C:\Users\admin\source\repos\Expense-Tracker\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\admin\source\repos\Expense-Tracker\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\admin\source\repos\Expense-Tracker\obj\Debug\net8.0\Expense-Tracker.sourcelink.json
+C:\Users\admin\source\repos\Expense-Tracker\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

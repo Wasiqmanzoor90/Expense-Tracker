@@ -7,16 +7,16 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Expense_Tracker.CQRS.Login.Commonds
 {
-    public class GetLoginHandler : IRequestHandler<GetLogin, LoginDto>
+    public class CreateUserLoginHandler : IRequestHandler<CreateUserLogin, LoginDto>
     {
         private SqlDbcontext _dbcontext;
         private readonly IJToken _tokenService; // Inject the IJToken interface
-        public GetLoginHandler(SqlDbcontext dbcontext, IJToken tokenService)
+        public CreateUserLoginHandler(SqlDbcontext dbcontext, IJToken tokenService)
         {
             _dbcontext = dbcontext;
             _tokenService = tokenService; // Initialize the TokenService
         }
-        public async Task<LoginDto> Handle(GetLogin request, CancellationToken cancellationToken)
+        public async Task<LoginDto> Handle(CreateUserLogin request, CancellationToken cancellationToken)
         {
           var finduser = await _dbcontext.Users.FirstOrDefaultAsync(u=> u.Email == request.Email);
             if(finduser == null)

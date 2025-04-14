@@ -2,6 +2,7 @@ using Expense_Tracker.Application.Behaviors;
 using Expense_Tracker.Application.Interface;
 using Expense_Tracker.Application.Service;
 using Expense_Tracker.Data;
+using Expense_Tracker.Extensions;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using MediatR;
@@ -26,6 +27,10 @@ builder.Services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
 builder.Services.AddDbContext<SqlDbcontext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DataBase")));
 
+
+//  Call your JWT extension here
+builder.Services.AddJwtAuthentication(builder.Configuration);
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -49,6 +54,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseAuthentication();  // ?? Required for JWT
+
 
 app.UseAuthorization();
 

@@ -3,5 +3,5 @@ using MediatR;
 
 namespace Expense_Tracker.CQRS.Login.Commonds
 {
-    public record GetLogin(string Email, string Password): IRequest<LoginDto>;
+    public record CreateUserLogin(string Email, string Password): IRequest<LoginDto>;
 }

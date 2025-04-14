@@ -3,72 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\cqrs\\expenses\\query\\getexpensevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:cqrs\\expenses\\query\\getexpensevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\cqrs\\expenses\\query\\getexpenseshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:cqrs\\expenses\\query\\getexpenseshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\cqrs\\expenses\\query\\getexpensesid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:cqrs\\expenses\\query\\getexpensesid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\cqrs\\expenses\\commonds\\expensescommond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:cqrs\\expenses\\commonds\\expensescommond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\cqrs\\expenses\\commonds\\expensescommondvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:cqrs\\expenses\\commonds\\expensescommondvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\cqrs\\expenses\\commonds\\expensescommondhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:cqrs\\expenses\\commonds\\expensescommondhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\cqrs\\login\\commonds\\getloginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:cqrs\\login\\commonds\\getloginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\cqrs\\login\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:cqrs\\login\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\cqrs\\login\\commonds\\getlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:cqrs\\login\\commonds\\getlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\application\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:application\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\application\\service\\jwtconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:application\\service\\jwtconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\application\\interface\\ijtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:application\\interface\\ijtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\expense-tracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:expense-tracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\domain\\model\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:domain\\model\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\cqrs\\expenses\\commonds\\expensescommondvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:cqrs\\expenses\\commonds\\expensescommondvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\cqrs\\user\\queries\\getuserbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:cqrs\\user\\queries\\getuserbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\cqrs\\login\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:cqrs\\login\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|c:\\users\\admin\\source\\repos\\expense-tracker\\cqrs\\expenses\\dtos\\detaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4EDF826-40D5-4DFD-9A38-035740B56DC8}|Expense-Tracker.csproj|solutionrelative:cqrs\\expenses\\dtos\\detaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Login\\Commonds\\CreateUserLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CQRS\\Login\\Commonds\\CreateUserLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Login\\Commonds\\CreateUserLoginHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CQRS\\Login\\Commonds\\CreateUserLoginHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,59 +62,111 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetExpensesHandler.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Expenses\\Query\\GetExpensesHandler.cs",
-              "RelativeDocumentMoniker": "CQRS\\Expenses\\Query\\GetExpensesHandler.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Expenses\\Query\\GetExpensesHandler.cs*",
-              "RelativeToolTip": "CQRS\\Expenses\\Query\\GetExpensesHandler.cs*",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T10:30:40.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GetExpensesId.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Expenses\\Query\\GetExpensesId.cs",
-              "RelativeDocumentMoniker": "CQRS\\Expenses\\Query\\GetExpensesId.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Expenses\\Query\\GetExpensesId.cs*",
-              "RelativeToolTip": "CQRS\\Expenses\\Query\\GetExpensesId.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T10:43:37.769Z",
+              "Title": "Expense-Tracker",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\Expense-Tracker.csproj",
+              "RelativeDocumentMoniker": "Expense-Tracker.csproj",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\Expense-Tracker.csproj",
+              "RelativeToolTip": "Expense-Tracker.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-14T16:30:05.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetExpenseValidator.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Expenses\\Query\\GetExpenseValidator.cs",
-              "RelativeDocumentMoniker": "CQRS\\Expenses\\Query\\GetExpenseValidator.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Expenses\\Query\\GetExpenseValidator.cs*",
-              "RelativeToolTip": "CQRS\\Expenses\\Query\\GetExpenseValidator.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "JwtConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\Application\\Service\\JwtConfiguration.cs",
+              "RelativeDocumentMoniker": "Application\\Service\\JwtConfiguration.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\Application\\Service\\JwtConfiguration.cs",
+              "RelativeToolTip": "Application\\Service\\JwtConfiguration.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA0wCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T10:43:35.945Z",
+              "WhenOpened": "2025-04-14T16:28:27.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAB8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T16:28:11.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\Application\\Service\\TokenService.cs",
+              "RelativeDocumentMoniker": "Application\\Service\\TokenService.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\Application\\Service\\TokenService.cs",
+              "RelativeToolTip": "Application\\Service\\TokenService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA0wC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T16:01:46.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-14T16:01:14.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateUserLogin.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Login\\Commonds\\CreateUserLogin.cs",
+              "RelativeDocumentMoniker": "CQRS\\Login\\Commonds\\CreateUserLogin.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Login\\Commonds\\CreateUserLogin.cs",
+              "RelativeToolTip": "CQRS\\Login\\Commonds\\CreateUserLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T15:59:04.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateUserLoginHandler.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Login\\Commonds\\CreateUserLoginHandler.cs",
+              "RelativeDocumentMoniker": "CQRS\\Login\\Commonds\\CreateUserLoginHandler.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Login\\Commonds\\CreateUserLoginHandler.cs",
+              "RelativeToolTip": "CQRS\\Login\\Commonds\\CreateUserLoginHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T15:59:00.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\Controllers\\UserController.cs*",
-              "RelativeToolTip": "Controllers\\UserController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAxAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAABKwCcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T10:44:13.6Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ExpensesCommondValidation.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Expenses\\Commonds\\ExpensesCommondValidation.cs",
               "RelativeDocumentMoniker": "CQRS\\Expenses\\Commonds\\ExpensesCommondValidation.cs",
@@ -155,33 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ExpensesCommond.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Expenses\\Commonds\\ExpensesCommond.cs",
-              "RelativeDocumentMoniker": "CQRS\\Expenses\\Commonds\\ExpensesCommond.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Expenses\\Commonds\\ExpensesCommond.cs",
-              "RelativeToolTip": "CQRS\\Expenses\\Commonds\\ExpensesCommond.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T12:43:16.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ExpensesCommondHandler.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Expenses\\Commonds\\ExpensesCommondHandler.cs",
-              "RelativeDocumentMoniker": "CQRS\\Expenses\\Commonds\\ExpensesCommondHandler.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Expenses\\Commonds\\ExpensesCommondHandler.cs",
-              "RelativeToolTip": "CQRS\\Expenses\\Commonds\\ExpensesCommondHandler.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T12:43:18.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Login\\Dtos\\LoginDto.cs",
               "RelativeDocumentMoniker": "CQRS\\Login\\Dtos\\LoginDto.cs",
@@ -190,123 +188,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T12:15:09.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GetLoginHandler.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Login\\Commonds\\GetLoginHandler.cs",
-              "RelativeDocumentMoniker": "CQRS\\Login\\Commonds\\GetLoginHandler.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Login\\Commonds\\GetLoginHandler.cs",
-              "RelativeToolTip": "CQRS\\Login\\Commonds\\GetLoginHandler.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAADgvykAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T12:16:57.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GetLogin.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Login\\Commonds\\GetLogin.cs",
-              "RelativeDocumentMoniker": "CQRS\\Login\\Commonds\\GetLogin.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Login\\Commonds\\GetLogin.cs",
-              "RelativeToolTip": "CQRS\\Login\\Commonds\\GetLogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T12:14:45.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T12:12:01.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\Application\\Service\\TokenService.cs",
-              "RelativeDocumentMoniker": "Application\\Service\\TokenService.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\Application\\Service\\TokenService.cs",
-              "RelativeToolTip": "Application\\Service\\TokenService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAADwvyQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T12:04:04.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-14T12:04:25.755Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IJToken.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\Application\\Interface\\IJToken.cs",
-              "RelativeDocumentMoniker": "Application\\Interface\\IJToken.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\Application\\Interface\\IJToken.cs",
-              "RelativeToolTip": "Application\\Interface\\IJToken.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T12:00:38.612Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Detail.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\Domain\\Model\\Detail.cs",
-              "RelativeDocumentMoniker": "Domain\\Model\\Detail.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\Domain\\Model\\Detail.cs",
-              "RelativeToolTip": "Domain\\Model\\Detail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T10:48:42.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GetUserByIdQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\User\\Queries\\GetUserByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "CQRS\\User\\Queries\\GetUserByIdQueryHandler.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\User\\Queries\\GetUserByIdQueryHandler.cs",
-              "RelativeToolTip": "CQRS\\User\\Queries\\GetUserByIdQueryHandler.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAABMAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T10:33:44.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DetailDto.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Expenses\\Dtos\\DetailDto.cs",
-              "RelativeDocumentMoniker": "CQRS\\Expenses\\Dtos\\DetailDto.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\Expense-Tracker\\CQRS\\Expenses\\Dtos\\DetailDto.cs",
-              "RelativeToolTip": "CQRS\\Expenses\\Dtos\\DetailDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T10:38:19.843Z",
               "EditorCaption": ""
             }
           ]
