@@ -1,4 +1,6 @@
 using Expense_Tracker.Application.Behaviors;
+using Expense_Tracker.Application.Interface;
+using Expense_Tracker.Application.Service;
 using Expense_Tracker.Data;
 using FluentValidation;
 using FluentValidation.AspNetCore;
@@ -14,6 +16,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddFluentValidationAutoValidation(); // Auto model validation
 builder.Services.AddFluentValidationClientsideAdapters(); // Optional: for client-side validation (if using Razor/Blazor)
+builder.Services.AddScoped<IJToken, TokenService>();
 
 builder.Services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
 

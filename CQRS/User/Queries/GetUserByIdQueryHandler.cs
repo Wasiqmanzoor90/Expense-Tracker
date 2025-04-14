@@ -1,10 +1,10 @@
-﻿using Expense_Tracker.Data;
+﻿using Expense_Tracker.CQRS.User.Dtos;
+using Expense_Tracker.Data;
 using Expense_Tracker.Domain.Model;
-using Expense_Tracker.User.Dtos;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace Expense_Tracker.User.Queries
+namespace Expense_Tracker.CQRS.User.Queries
 {
     public class GetUserByIdQueryHandler : IRequestHandler<GetUserByIdQuery, UserDto>
     {

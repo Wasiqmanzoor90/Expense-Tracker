@@ -176,3 +176,4 @@ C:\Users\admin\source\repos\Expense-Tracker\obj\Debug\net8.0\Expense-Tracker.gen
 C:\Users\admin\source\repos\Expense-Tracker\obj\Debug\net8.0\ref\Expense-Tracker.dll
 C:\Users\admin\source\repos\Expense-Tracker\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\admin\source\repos\Expense-Tracker\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\admin\source\repos\Expense-Tracker\obj\Debug\net8.0\Expense-Tracker.sourcelink.json

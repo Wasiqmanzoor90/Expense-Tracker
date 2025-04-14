@@ -1,11 +1,11 @@
 ﻿using FluentValidation;
 
-namespace Expense_Tracker.User.Commonds
+namespace Expense_Tracker.CQRS.User.Commonds
 {
     public class CreateUserValidator : AbstractValidator<CreateUserCommond>
     {
 
-        public CreateUserValidator() 
+        public CreateUserValidator()
         {
 
             RuleFor(x => x.Name)

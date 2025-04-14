@@ -1,9 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Expense_Tracker.Domain.Model
 {
     public class Detail
     {
+        [Key]
         public Guid DetailId { get; set; }
         public required string Tittle {  get; set; }
         public required Decimal Amount { get; set; }

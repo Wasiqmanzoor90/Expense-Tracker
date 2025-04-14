@@ -1,6 +1,38 @@
 [
   {
     "ContainingType": "Expense_Tracker.Controllers.UserController",
+    "Method": "GetExpen",
+    "RelativePath": "api/User/{UserId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expense_Tracker.Controllers.UserController",
+    "Method": "Expenses",
+    "RelativePath": "api/User/Expenses",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commond",
+        "Type": "Expense_Tracker.CQRS.Expenses.Commonds.ExpensesCommond",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expense_Tracker.Controllers.UserController",
     "Method": "Register",
     "RelativePath": "api/User/Register",
     "HttpMethod": "POST",
@@ -9,7 +41,7 @@
     "Parameters": [
       {
         "Name": "commond",
-        "Type": "Expense_Tracker.User.Commonds.CreateUserCommond",
+        "Type": "Expense_Tracker.CQRS.User.Commonds.CreateUserCommond",
         "IsRequired": true
       }
     ],

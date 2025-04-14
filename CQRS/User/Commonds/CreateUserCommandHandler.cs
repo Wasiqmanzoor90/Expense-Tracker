@@ -4,13 +4,13 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace Expense_Tracker.User.Commonds
+namespace Expense_Tracker.CQRS.User.Commonds
 {
     public class CreateUserCommandHandler : IRequestHandler<CreateUserCommond, Guid>
     {
         private readonly SqlDbcontext _dbContext;
 
-    public CreateUserCommandHandler(SqlDbcontext dbContext)
+        public CreateUserCommandHandler(SqlDbcontext dbContext)
         {
 
             _dbContext = dbContext;
@@ -18,7 +18,7 @@ namespace Expense_Tracker.User.Commonds
         public async Task<Guid> Handle(CreateUserCommond request, CancellationToken cancellationToken)
         {
             var emaild = await _dbContext.Users.AnyAsync(e => e.Email == request.Email, cancellationToken);
-            if(emaild)
+            if (emaild)
             {
                 throw new Exception("Email already exists.");
             }
