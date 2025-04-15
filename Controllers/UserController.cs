@@ -5,7 +5,7 @@ using Expense_Tracker.CQRS.User.Commonds;
 using Expense_Tracker.Expenses.Query;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace Expense_Tracker.Controllers
@@ -27,6 +27,7 @@ namespace Expense_Tracker.Controllers
                  return Ok(new { UserId = userId, Message = "User registered successfully." });
         }
 
+
         [HttpPost("Login")]
         public async Task<IActionResult> Login(CreateUserLogin login)
         { 
@@ -36,6 +37,7 @@ namespace Expense_Tracker.Controllers
         }
 
 
+
         [HttpGet("{UserId}")]
         [Authorize]
         public async Task<IActionResult>GetExpen(Guid UserId)
@@ -43,6 +45,7 @@ namespace Expense_Tracker.Controllers
             var result= await _mediator.Send(new GetExpensesId(UserId));
             return Ok(result);
         }
+
 
 
 

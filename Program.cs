@@ -43,6 +43,11 @@ builder.Services.AddMediatR(cfg =>
     cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
 });
 
+builder.Services.AddCors(Options =>
+{
+    Options.AddPolicy("AllowAll", policy => policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+});
+
 
 var app = builder.Build();
 
