@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react'
-import LottieAnimation from './Component/Lottie';
+import LottieAnimation from '../Component/Lottie';
 const user1 = [
     { id: 1, name: 'Alice Johnson', email: 'alice@example.com' },
     { id: 2, name: 'Bob Smith', email: 'bob@example.com' },
@@ -19,7 +19,7 @@ useEffect(()=>{
 },[]);
 if (Loading) return (
   <div style={{ width: 200, margin: 'auto' }}>
-    <LottieAnimation />
+  <LottieAnimation/>
   </div>
 );
   return (
