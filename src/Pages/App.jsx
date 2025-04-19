@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import { ToastContainer } from "react-toastify";
 import LottieAnimation from '../Component/Lottie';
 import Register from './Register';
+import Login from './Login';
 
 const Home = lazy(() => import('./Home'));
 
@@ -32,6 +33,7 @@ function App() {
             <Routes>
               <Route path="/Register" element={<Register />} />
               <Route path="/Home" element={<Home />} />
+              <Route path='/Login' element={<Login/>}/>
             </Routes>
           </Suspense>
         </div>

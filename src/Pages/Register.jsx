@@ -1,7 +1,8 @@
 import axios from 'axios';
 import React, { useState } from 'react'
-import { Link } from 'react-router';
 import { toast } from 'react-toastify';
+import { Link } from 'react-router-dom';
+
 
 function Register() {
     const [FormData, setForm] = React.useState({
@@ -148,6 +149,8 @@ function Register() {
                         Sign up with X
                     </a>
                 </div>
+                <Link className='text-center mt-2' style={{textDecoration:'none'}} to="/Login">Already a user</Link>
+
             </div>
 
         </div>
