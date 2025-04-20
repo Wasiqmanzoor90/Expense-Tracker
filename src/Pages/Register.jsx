@@ -35,9 +35,30 @@ function Register() {
 
         catch (error) {
 
-            if ([400, 401, 403, 404, 405].includes(error.response.status)) {
-                toast.error(error.response.data.message);
+
+            if (error.response && error.response.data) {
+                let errorMessage = '';
+                if (!FormData.Name || !FormData.Email || !FormData.Password) {
+                    errorMessage = 'Please enter all details.';
+                } else {
+                    // If specific field errors exist (Email or Password), show them
+                    if (error.response.data.errors?.Name) {
+                        errorMessage = error.response.data.errors.Name[0];
+                    }
+
+                    if (error.response.data.errors?.Email) {
+                        errorMessage = error.response.data.errors.Email[0];
+                    }
+                    if (error.response.data.errors?.Password) {
+                        errorMessage = error.response.data.errors.Password[0];
+                    }
+                }
+                    // Show the final error message
+                    toast.error(errorMessage);
             }
+
+
+
             console.log(error);
         }
 
@@ -149,7 +170,7 @@ function Register() {
                         Sign up with X
                     </a>
                 </div>
-                <Link className='text-center mt-2' style={{textDecoration:'none'}} to="/Login">Already a user</Link>
+                <Link className='text-center mt-2' style={{ textDecoration: 'none' }} to="/Login">Already a user</Link>
 
             </div>
 

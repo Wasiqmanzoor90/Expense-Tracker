@@ -21,6 +21,9 @@ function Login() {
             console.log(res.data);
             if (res.status === 200) {
                 toast.success('Login successful!');
+                localStorage.setItem('token', res.data.token);
+                localStorage.setItem('userId', res.data.userId);
+                localStorage.setItem('name', res.data.name);
 
                 setEmail('');
                 setPassword('');

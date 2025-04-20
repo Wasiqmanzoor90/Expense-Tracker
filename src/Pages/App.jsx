@@ -5,6 +5,9 @@ import { ToastContainer } from "react-toastify";
 import LottieAnimation from '../Component/Lottie';
 import Register from './Register';
 import Login from './Login';
+import PrivateRoute from '../Utils/PrivateRoute';
+import Dashboard from './Dashboard';
+import CreateExp from './CreateExp';
 
 const Home = lazy(() => import('./Home'));
 
@@ -31,6 +34,8 @@ function App() {
         <div className="flex-grow-1 p-4">
           <Suspense fallback={<div style={{ width: 200, margin: 'auto' }}><LottieAnimation /></div>}>
             <Routes>
+              <Route path='Dashboard' element={<PrivateRoute><Dashboard/></PrivateRoute>} />
+              <Route path='/CreateExp' element={<PrivateRoute><CreateExp/></PrivateRoute>} />
               <Route path="/Register" element={<Register />} />
               <Route path="/Home" element={<Home />} />
               <Route path='/Login' element={<Login/>}/>
