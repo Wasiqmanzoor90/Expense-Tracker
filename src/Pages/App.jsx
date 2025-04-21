@@ -9,6 +9,7 @@ import PrivateRoute from '../Utils/PrivateRoute';
 import Dashboard from './Dashboard';
 import CreateExp from './CreateExp';
 
+
 const Home = lazy(() => import('./Home'));
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
           </Suspense>
         </div>
       </div>
+    
     </BrowserRouter>
   );
 }

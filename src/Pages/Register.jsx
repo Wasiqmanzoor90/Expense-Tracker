@@ -56,15 +56,12 @@ function Register() {
                     // Show the final error message
                     toast.error(errorMessage);
             }
-
-
-
             console.log(error);
         }
 
     }
     return (
-        <div className="container mt-5 " style={{ border: '1px solid lightgrey', width: '400px', padding: '20px', borderRadius: '8px' }}>
+        <div className="container mt-1 " style={{ border: '1px solid lightgrey', width: '350px', padding: '20px', borderRadius: '8px' }}>
             <h2 className="mb-3 text-center">Register</h2>
             <form onSubmit={SubmitForm}>
                 <div className="mb-3">

@@ -1,5 +1,7 @@
 import axios from 'axios';
 import React from 'react'
+import { toast } from 'react-toastify';
+
 
 const CreateExp = () => {
     const [exp, setExp] = React.useState({
@@ -38,7 +40,7 @@ const CreateExp = () => {
             };
 
             const res = await axios.post('https://localhost:7240/api/User/Expenses', payload);
-            if (res.status == 200) {
+            if (res.status === 200) {
                 console.log(res.data);
             }
             setExp({
@@ -49,6 +51,18 @@ const CreateExp = () => {
 
             });
         } catch (error) {
+
+
+            if (error.response && error.response.data) {
+                let errorMessage = '';
+                if (!exp.tittle || !exp.amount || !exp.category || !exp.notes) {
+                    errorMessage = 'Please enter all details.';
+                } 
+                    
+                    // Show the final error message
+                    toast.error(errorMessage);
+            }
+
 
         }
     }
@@ -94,7 +108,7 @@ const CreateExp = () => {
                         className="form-control"
                         placeholder="Enter Category"
                         id="Categoryinput"
-                        name="Category"
+                        name="category"
                         value={exp.category}
                         onChange={handleChange}
                     />

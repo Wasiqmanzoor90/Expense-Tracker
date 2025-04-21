@@ -78,7 +78,7 @@ function Login() {
                         aria-describedby="emailHelp"
                         value={email}
                         onChange={(e) => {
-                            setEmail(e.target.value);
+                        setEmail(e.target.value);
                         }}
                     />
                     <div id="emailHelp" className="form-text">
@@ -116,10 +116,7 @@ function Login() {
                         Submit
                     </button>
                 </div>
-
             </form>
-
-
         </div>
     )
 }
